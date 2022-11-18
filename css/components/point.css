@@ -1,0 +1,27 @@
+.point {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.info-circle {
+  border: 1px solid tomato;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 31px;
+  left: 125px;
+}
+
+.info-circle span {
+  color: red;
+  font-size: 12px;
+}
